@@ -1,6 +1,6 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "payment-frontend",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^4.2.1",
+    "@mantine/form": "^4.2.1",
+    "@mantine/hooks": "^4.2.1",
+    "@mantine/next": "^4.2.1",
     "next": "12.1.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-number-format": "^4.9.3",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5"
-  }
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "12.1.5",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkdir-dev"
+  },
+  "author": "Mikhail Koryukov",
+  "license": "ISC"
 }
